@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    font-size: 1em;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    background: white;
+    place-items: center;
+    grid-template-rows: auto 1fr;
+    gap: 2em;
+}
+
+header {
+    font-family: Pacifico, sans-serif;
+    font-size: 3rem;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+    word-spacing: .5em;
+    text-transform: uppercase;
+    color: #d5bd5b;
+    background: #4d0523;
+}
+
+article {
+    display: grid;
+    width: 80vw;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    background: #4d0523;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    place-items: center;
+}
+
+article > * {
+    padding: 2em;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem 15rem;
+    color: white;
+    border-bottom: 2px solid white;
+    grid-column: 1 / 3;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #d5bd5b;
+}
+
+.img-wrapper {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.recipe-description {
+    text-align: center;
+}
+
+ol > li {
+    margin: .5rem 0;
+}
+
+hr {
+    height: 2px;
+    margin: 2rem 0;
+    border: 0;
+    background: white;
+}
