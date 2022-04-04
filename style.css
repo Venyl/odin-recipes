@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
 body {
-    font-family: "Trebuchet MS", sans-serif;
+    font-family: Nunito, sans-serif;
     font-size: 1em;
     display: grid;
     height: 100vh;
@@ -21,8 +21,12 @@ main {
 }
 
 h1 {
+    font-family: Pacifico, sans-serif;
     font-size: 3rem;
     padding: .2em 5em;
+    word-spacing: .5em;
+    text-transform: uppercase;
+    color: #d5bd5b;
     border-bottom: .2rem solid white;
 }
 
