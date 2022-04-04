@@ -76,6 +76,10 @@ img {
     text-align: center;
 }
 
+ul > li {
+    list-style: none;
+}
+
 ol > li {
     margin: .5rem 0;
 }
