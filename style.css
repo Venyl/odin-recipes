@@ -9,9 +9,9 @@ body {
 }
 
 main {
-    color:white;
     display: grid;
     width: 50%;
+    color: white;
     border-radius: 5em;
     background: #4d0523;
     box-shadow: 2px 8px 25px -10px rgba(46, 41, 40, 1);
