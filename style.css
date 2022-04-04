@@ -1,0 +1,62 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    background: white;
+    place-items: center;
+}
+
+main {
+    color:white;
+    display: grid;
+    width: 50%;
+    border-radius: 5em;
+    background: #4d0523;
+    box-shadow: 2px 8px 25px -10px rgba(46, 41, 40, 1);
+    place-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: .2em 5em;
+    border-bottom: .2rem solid white;
+}
+
+.card-container {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr);
+    gap: 2em;
+    place-items: center;
+
+}
+
+.card {
+    max-height: 50vh;
+    aspect-ratio: 1 / 2;
+}
+
+a {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    transition: 200ms ease-in transform;
+    color: white;
+
+}
+
+.card > a > img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    box-shadow: 8px 8px 15px -13px rgba(46, 41, 40, 1);
+    object-fit: cover;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
