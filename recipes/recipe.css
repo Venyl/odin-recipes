@@ -29,6 +29,11 @@ header {
     background: #4d0523;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 article {
     display: grid;
     width: 80vw;
